@@ -7,7 +7,7 @@ import VideoDetail from './VideoDetail';
 class App extends React.Component {
     state = { videos: [], selectedVideo: null };
     componentDidMount() {
-        this.onTermSubmit('trendings');
+        this.onTermSubmit('Latest Movies');
       }
     onTermSubmit = async (term) => {
         const response = await youtube.get('/search', {
