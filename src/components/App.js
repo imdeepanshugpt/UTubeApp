@@ -45,7 +45,7 @@ class App extends React.Component {
           </div>
         </div>
         <h3 className="ui bottom attached header">
-        &copy; developed by <a href="https://www.linkedin.com/in/imdeepanshugpt">Deepanshu Gupta</a>
+          Developed by <a href="https://www.linkedin.com/in/imdeepanshugpt">Deepanshu Gupta</a>
         </h3>
       </div>
     );
