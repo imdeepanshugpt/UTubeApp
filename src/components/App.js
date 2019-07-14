@@ -7,7 +7,7 @@ import './App.css';
 class App extends React.Component {
   state = { videos: [], selectedVideo: null };
   componentDidMount() {
-    this.onTermSubmit('');
+    this.onTermSubmit('bollywood Songs');
   }
   onTermSubmit = async (term) => {
     const response = await youtube.get('/search', {
@@ -44,7 +44,7 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-        <h3 class="ui bottom attached header">
+        <h3 className="ui bottom attached header">
         &copy; developed by <a href="https://www.linkedin.com/in/imdeepanshugpt">Deepanshu Gupta</a>
         </h3>
       </div>
