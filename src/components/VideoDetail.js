@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './VideoDetail.css';
 const VideoDetails = ({ video }) => {
     if (!video) {
         return (
@@ -13,6 +13,7 @@ const VideoDetails = ({ video }) => {
                 <iframe title="video player" src={videoSrc} allowfullscreen />
             </div>
             <div className="ui segment">
+                <h3 className="channelTitle">{video.snippet.channelTitle}</h3>
                 <h4 className="ui header">{video.snippet.title}</h4>
                 <p>{video.snippet.description}</p>
             </div>

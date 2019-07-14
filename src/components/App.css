@@ -1,0 +1,19 @@
+.ui.top.attached.header {
+  background-color: black;
+  color: white;
+}
+.ui.bottom.attached.header {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.side-content {
+  float: right;
+}
+.ui.container{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.header-title{
+    cursor: pointer;
+}
