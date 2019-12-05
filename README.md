@@ -1,5 +1,4 @@
-## GiftCardApp
-Website Url: https://yoyogift-98c6c.firebaseapp.com/
+
 
 ## Available Scripts
 
